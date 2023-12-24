@@ -1,0 +1,65 @@
+body {
+    background: #000;
+    color: white;
+}
+
+
+.appDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.4);
+}
+.playlistInfoDiv {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.imageDiv {
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
+}
+
+.contentDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.playlist-info {
+    display: inline-block;
+    font-size: 16px;
+    color: gray;
+}
+
+.tracksDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.trackDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.trackContentDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.spanForTrackInfo {
+    color: #c7c7c7;
+}
+
+.playerElement {
+
+}
